@@ -29,7 +29,22 @@ import plotly.graph_objects as go
 # Sidebar
 st.set_page_config(layout="wide")
 
-
+st.markdown("""
+        <style>
+               .css-18e3th9 {
+                    padding-top: 2rem;
+                    padding-bottom: 0rem;
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+                }
+               .css-1d391kg {
+                    padding-top: 2rem;
+                    padding-right: 1rem;
+                    padding-bottom: 0rem;
+                    padding-left: 1rem;
+                }
+        </style>
+        """, unsafe_allow_html=True)
 
 # st.markdown("""
 #         <style>
