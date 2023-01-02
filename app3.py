@@ -31,32 +31,32 @@ st.set_page_config(layout="wide")
 
 
 
-st.markdown("""
-        <style>
-               .css-18e3th9 {
-                    padding-top: 0rem;
-                    padding-bottom: 0rem;
-                    padding-left: 5rem;
-                    padding-right: 5rem;
-                }
-               .css-1d391kg {
-                    padding-top: 0rem;
-                    padding-right: 1rem;
-                    padding-bottom: 0rem;
-                    padding-left: 1rem;
-                }
-        </style>
-        """, unsafe_allow_html=True)
+# st.markdown("""
+#         <style>
+#                .css-18e3th9 {
+#                     padding-top: 0rem;
+#                     padding-bottom: 0rem;
+#                     padding-left: 5rem;
+#                     padding-right: 5rem;
+#                 }
+#                .css-1d391kg {
+#                     padding-top: 0rem;
+#                     padding-right: 1rem;
+#                     padding-bottom: 0rem;
+#                     padding-left: 1rem;
+#                 }
+#         </style>
+#         """, unsafe_allow_html=True)
 
-st.markdown(    
-    """
-    <style>
-    [data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
-        width: 500px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,)
+# st.markdown(    
+#     """
+#     <style>
+#     [data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
+#         width: 500px;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,)
 
 #################### Sidebar ######################
 
